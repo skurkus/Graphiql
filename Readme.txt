@@ -14,8 +14,8 @@ ouvrir http://localhost:2561/
 
 
 
-Pour créer l'exe en se basant sur package.json :
-avec cmd, dans le folder example : pkg . --targets node10-win-x64
+Pour créer l'exe en se basant sur package.json, avec cmd, dans le folder principal : 
+pkg . --targets node10-win-x64 --out-path ".\publish\graphiql-app"
 
 Pour lancer : (npm start) ou
 graphiql-app.exe http://localhost:2561/ http://localhost:2560/api/graphql
